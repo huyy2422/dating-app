@@ -8,6 +8,7 @@ import ChatDetailsScreen from '../screens/ChatDetailsScreen'
 import HomeScreen from '../screens/HomeScreen'
 import ProfileScreen from '../screens/ProfileScreen'
 import ChatScreen from '../screens/ChatScreen'
+import { Ionicons } from '@expo/vector-icons'
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -16,7 +17,34 @@ export default function AppNavigation() {
 
     const HomeTabs = () => {
     return (
-      <Tab.Navigator>
+      <Tab.Navigator
+      screenOptions={({route}) => ({
+        headerShown: false,
+        tabBarIcon: ({ focused }) => {
+          let iconName;
+
+          if (route.name === "Home") {
+            iconName = "home";
+          } else if (route.name === "Chat") {
+            iconName = "chatbubbles-outline";
+          } else if (route.name === "Profile") {
+            iconName = "person-outline";
+          }
+
+          const customizeSize = 24;
+
+          return (
+            <Ionicons
+              name={iconName}
+              size={customizeSize}
+              color={focused ? "#3B82F6" : "gray"}
+            />
+          );
+        },
+
+        
+      })}
+      >
         <Tab.Screen name="Home" component={HomeScreen} />
         <Tab.Screen name="Profile" component={ProfileScreen} />
         <Tab.Screen name="Chat" component={ChatScreen} />
@@ -35,7 +63,7 @@ export default function AppNavigation() {
             presentation: 'modal',
         }}
         />
-        <Stack.Screen name="Home" component={HomeTabs}/>
+        <Stack.Screen name="HomeTabs" component={HomeTabs}/>
       </Stack.Navigator>
     </NavigationContainer>
   )

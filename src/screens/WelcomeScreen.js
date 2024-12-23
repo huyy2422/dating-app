@@ -88,7 +88,9 @@ export default function WelcomeScreen() {
           </Text>
         </View>
         <View className="w-full px-10">
-          <TouchableOpacity className="bg-[#F26322] px-4 py-4 rounded-xl flex-row justify-center items-center w-[45%]">
+          <TouchableOpacity className="bg-[#F26322] px-4 py-4 rounded-xl flex-row justify-center items-center w-[45%]"
+          onPress={() => navigation.navigate("HomeTabs")}
+          >
             <Text
               className="text-white font-bold mr-2"
               style={{ fontSize: wp(3.5), fontFamily: "SpaceGroteskMedium" }}
