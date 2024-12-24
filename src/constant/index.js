@@ -442,9 +442,9 @@ import {
   export const profileData = [
     {
       name: "Ning Ning",
-      age: 30,
+      age: 22,
       imgUrl: profile,
       hobbies: ["Hiking", "Photography", "Cooking"],
-      bio: "I'm an adventurous person who loves exploring new places, trying out different cuisines, capturing moments through photography, and spending time in nature. I enjoy hiking on weekends and experimenting with new recipes in the kitchen. Traveling and experiencing different cultures are some of my greatest passions, and I'm always looking for my next adventure.",
+      bio: "Graduated from Harbin Normal University Middle School, a Chinese singer. I am the main dancer, lead vocalist of Aespa.",
     },
   ];
