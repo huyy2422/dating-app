@@ -98,12 +98,12 @@ import {
   export const chatData = [
     {
       id: 1,
-      name: "Betty",
+      name: "Xam",
       imgUrl: user1,
-      age: 32,
+      age: 1,
       isOnline: true,
       lastMessage:
-        "That sounds like a lot of fun. Would you like to go together sometime?",
+        "Gau Gau Gau Gau Gau",
       date: "2023-10-15",
       timeSent: "5 mins",
       chat: [
@@ -113,8 +113,8 @@ import {
           timestamp: "10:00 AM",
         },
         {
-          sender: "Betty",
-          message: "I am doing great, thanks!",
+          sender: "Xam",
+          message: "Gau Gau",
           timestamp: "10:05 AM",
         },
         {
@@ -123,8 +123,8 @@ import {
           timestamp: "10:10 AM",
         },
         {
-          sender: "Betty",
-          message: "Yes, I'm thinking of going hiking. 🏞️ What about you?",
+          sender: "Xam",
+          message: "Gau Gau Gau Gau",
           timestamp: "10:15 AM",
         },
         {
@@ -133,19 +133,19 @@ import {
           timestamp: "10:20 AM",
         },
         {
-          sender: "Betty",
-          message: "That would be great! The more, the merrier. 🌟",
+          sender: "Xam",
+          message: "Gau Gau",
           timestamp: "10:25 AM",
         },
       ],
     },
     {
       id: 2,
-      name: "Basquit",
+      name: "Kem",
       imgUrl: user2,
-      age: 28,
+      age: 2,
       isOnline: false,
-      lastMessage: "Sure, let's do that. When are you free?",
+      lastMessage: "Meo Meo Meo",
       date: "2023-10-14",
       timeSent: "10 mins",
       chat: [
@@ -155,8 +155,8 @@ import {
           timestamp: "11:00 AM",
         },
         {
-          sender: "Charlie",
-          message: "I've been good. How about you?",
+          sender: "Kem",
+          message: "Meo Meo Meo Meo",
           timestamp: "11:05 AM",
         },
         {
@@ -165,8 +165,8 @@ import {
           timestamp: "11:10 AM",
         },
         {
-          sender: "Charlie",
-          message: "I understand. We should catch up soon! ☕",
+          sender: "Kem",
+          message: "Meo Meo",
           timestamp: "11:15 AM",
         },
         {
@@ -175,8 +175,8 @@ import {
           timestamp: "11:20 AM",
         },
         {
-          sender: "Charlie",
-          message: "Sure, that sounds good. When are you free? 🗓️",
+          sender: "Kem",
+          message: "Meo Meo Meo Meo Meo",
           timestamp: "11:25 AM",
         },
         {
@@ -185,8 +185,8 @@ import {
           timestamp: "11:30 AM",
         },
         {
-          sender: "Charlie",
-          message: "Saturday works for me too! Let's meet at our usual spot. 🍔",
+          sender: "Kem",
+          message: "Meo",
           timestamp: "11:35 AM",
         },
         {
@@ -198,11 +198,11 @@ import {
     },
     {
       id: 3,
-      name: "Oliver",
+      name: "Boo",
       imgUrl: user3,
-      age: 30,
+      age: 3,
       isOnline: true,
-      lastMessage: "Sounds like a plan! Let's make it happen.",
+      lastMessage: "Meo Meo Meo Meo Meo",
       date: "2023-10-11",
       timeSent: "25 mins",
       chat: [
@@ -212,8 +212,8 @@ import {
           timestamp: "2:00 PM",
         },
         {
-          sender: "Oliver",
-          message: "It's going great! Enjoying the sunshine. How about you?",
+          sender: "Boo",
+          message: "Meo Meo Meo Meo Meo",
           timestamp: "2:05 PM",
         },
         {
@@ -222,8 +222,8 @@ import {
           timestamp: "2:10 PM",
         },
         {
-          sender: "Oliver",
-          message: "Don't work too hard! Make sure to take breaks. 🌞",
+          sender: "Boo",
+          message: "Meo Meo Meo Meo",
           timestamp: "2:15 PM",
         },
         {
@@ -233,8 +233,8 @@ import {
           timestamp: "2:20 PM",
         },
         {
-          sender: "Oliver",
-          message: "I might go to the gym later. Need to work off some steam. 💪",
+          sender: "Boo",
+          message: "Meo Meo Meo Meo Meo 💪",
           timestamp: "2:25 PM",
         },
         {
@@ -243,8 +243,8 @@ import {
           timestamp: "2:30 PM",
         },
         {
-          sender: "Oliver",
-          message: "Definitely! The more, the merrier. 🤸‍♂️",
+          sender: "Boo",
+          message: "Meo Meo Meo Meo Meo Meo Meo 🤸‍♂️",
           timestamp: "2:35 PM",
         },
       ],
@@ -253,9 +253,9 @@ import {
       id: 4,
       name: "Sophie",
       imgUrl: user9,
-      age: 27,
+      age: 2,
       isOnline: true,
-      lastMessage: "Definitely! Looking forward to it.",
+      lastMessage: "Meo Meo Meo Meo Meo Meo Meo",
       date: "2023-10-10",
       timeSent: "30 mins",
       chat: [
@@ -303,10 +303,10 @@ import {
     {
       id: 5,
       name: "William",
-      imgUrl: user1,
-      age: 29,
+      imgUrl: user4,
+      age: 2,
       isOnline: false,
-      lastMessage: "Let me check my schedule and get back to you.",
+      lastMessage: "Gau Gau Gau Gau Gau Gau",
       date: "2023-10-09",
       timeSent: "35 mins",
       chat: [
@@ -317,7 +317,7 @@ import {
         },
         {
           sender: "William",
-          message: "Things are going well. How about you?",
+          message: "Gau Gau Gau Gau",
           timestamp: "4:05 PM",
         },
       ],
@@ -325,10 +325,10 @@ import {
     {
       id: 6,
       name: "Jack",
-      imgUrl: user3,
-      age: 30,
+      imgUrl: user7,
+      age: 3,
       isOnline: true,
-      lastMessage: "Sounds like a great idea. Let's make it happen.",
+      lastMessage: "Meo Meo Meo Meo Meo Meo Meo",   
       date: "2023-10-07",
       timeSent: "45 mins",
       chat: [
@@ -339,7 +339,7 @@ import {
         },
         {
           sender: "Jack",
-          message: "It's been busy but good. How about you?",
+          message: "Meo Meo Meo Meo Meo Meo Meo",
           timestamp: "6:05 PM",
         },
       ],
