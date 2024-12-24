@@ -61,7 +61,7 @@ export default function ChatScreen() {
             <TouchableOpacity
               className="w-full py-3 items-center flex-row border-b border-neutral-300"
               onPress={() =>
-                navigation.navigate("ChatDetail", {
+                navigation.navigate("ChatDetails", {
                   chat: item.chat,
                   imgUrl: item.imgUrl,
                   name: item.name,
