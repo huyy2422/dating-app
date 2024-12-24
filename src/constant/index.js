@@ -267,12 +267,12 @@ import {
   
         {
           sender: "Sophie",
-          message: "It's been busy but good. How about you?",
+          message: "Meo Meo Meo Meo Meo Meo Meo",
           timestamp: "3:05 PM",
         },
         {
           sender: "Sophie",
-          message: "And also tired",
+          message: "Meo Meo Meo",
           timestamp: "3:05 PM",
         },
         {
@@ -282,7 +282,7 @@ import {
         },
         {
           sender: "Sophie",
-          message: "That's good to hear. Any exciting plans for the weekend?",
+          message: "Meo Meo Meo Meo Meo Meo Meo",
           timestamp: "3:15 PM",
         },
         {
@@ -294,7 +294,7 @@ import {
         {
           sender: "Sophie",
           message:
-            "I'm planning to go hiking with some friends. You should join us sometime!",
+            "Meo Meo Meo Meo Meo Meo Meo",
           timestamp: "3:25 PM",
         },
       ],
