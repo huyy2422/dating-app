@@ -1,4 +1,4 @@
-Dating-App created by React Native (Frontend)
+<h3 align="center">Dating-App created by React Native (Frontend)</h3>
 
 
 ![Welcome Screen](assets/img/welcome-screen.png)
