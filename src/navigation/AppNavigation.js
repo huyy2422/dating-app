@@ -64,7 +64,7 @@ export default function AppNavigation() {
   return (
     <NavigationContainer>
       <Stack.Navigator
-      initialRouteName='HomeTabs'
+      initialRouteName='Welcome'
       screenOptions={{ headerShown: false }}>
         <Stack.Screen name="Welcome" component={WelcomeScreen} />
         <Stack.Screen name="ChatDetails" component={ChatDetailsScreen} 

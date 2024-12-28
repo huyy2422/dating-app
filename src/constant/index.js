@@ -9,6 +9,8 @@ import {
     user7,
     user8,
     user9,
+    user10,
+    user11
   } from "../../assets/images";
   
   export const userData = [
@@ -98,12 +100,12 @@ import {
   export const chatData = [
     {
       id: 1,
-      name: "Xam",
+      name: "Betty",
       imgUrl: user1,
-      age: 1,
+      age: 32,
       isOnline: true,
       lastMessage:
-        "Gau Gau Gau Gau Gau",
+        "That sounds like a lot of fun. Would you like to go together sometime?",
       date: "2023-10-15",
       timeSent: "5 mins",
       chat: [
@@ -113,8 +115,8 @@ import {
           timestamp: "10:00 AM",
         },
         {
-          sender: "Xam",
-          message: "Gau Gau",
+          sender: "Betty",
+          message: "I am doing great, thanks!",
           timestamp: "10:05 AM",
         },
         {
@@ -123,8 +125,8 @@ import {
           timestamp: "10:10 AM",
         },
         {
-          sender: "Xam",
-          message: "Gau Gau Gau Gau",
+          sender: "Betty",
+          message: "Yes, I'm thinking of going hiking. 🏞️ What about you?",
           timestamp: "10:15 AM",
         },
         {
@@ -133,19 +135,19 @@ import {
           timestamp: "10:20 AM",
         },
         {
-          sender: "Xam",
-          message: "Gau Gau",
+          sender: "Betty",
+          message: "That would be great! The more, the merrier. 🌟",
           timestamp: "10:25 AM",
         },
       ],
     },
     {
       id: 2,
-      name: "Kem",
+      name: "Basquit",
       imgUrl: user2,
-      age: 2,
+      age: 28,
       isOnline: false,
-      lastMessage: "Meo Meo Meo",
+      lastMessage: "Sure, let's do that. When are you free?",
       date: "2023-10-14",
       timeSent: "10 mins",
       chat: [
@@ -155,8 +157,8 @@ import {
           timestamp: "11:00 AM",
         },
         {
-          sender: "Kem",
-          message: "Meo Meo Meo Meo",
+          sender: "Charlie",
+          message: "I've been good. How about you?",
           timestamp: "11:05 AM",
         },
         {
@@ -165,8 +167,8 @@ import {
           timestamp: "11:10 AM",
         },
         {
-          sender: "Kem",
-          message: "Meo Meo",
+          sender: "Charlie",
+          message: "I understand. We should catch up soon! ☕",
           timestamp: "11:15 AM",
         },
         {
@@ -175,8 +177,8 @@ import {
           timestamp: "11:20 AM",
         },
         {
-          sender: "Kem",
-          message: "Meo Meo Meo Meo Meo",
+          sender: "Charlie",
+          message: "Sure, that sounds good. When are you free? 🗓️",
           timestamp: "11:25 AM",
         },
         {
@@ -185,8 +187,8 @@ import {
           timestamp: "11:30 AM",
         },
         {
-          sender: "Kem",
-          message: "Meo",
+          sender: "Charlie",
+          message: "Saturday works for me too! Let's meet at our usual spot. 🍔",
           timestamp: "11:35 AM",
         },
         {
@@ -198,11 +200,11 @@ import {
     },
     {
       id: 3,
-      name: "Boo",
+      name: "Oliver",
       imgUrl: user3,
-      age: 3,
+      age: 30,
       isOnline: true,
-      lastMessage: "Meo Meo Meo Meo Meo",
+      lastMessage: "Sounds like a plan! Let's make it happen.",
       date: "2023-10-11",
       timeSent: "25 mins",
       chat: [
@@ -212,8 +214,8 @@ import {
           timestamp: "2:00 PM",
         },
         {
-          sender: "Boo",
-          message: "Meo Meo Meo Meo Meo",
+          sender: "Oliver",
+          message: "It's going great! Enjoying the sunshine. How about you?",
           timestamp: "2:05 PM",
         },
         {
@@ -222,8 +224,8 @@ import {
           timestamp: "2:10 PM",
         },
         {
-          sender: "Boo",
-          message: "Meo Meo Meo Meo",
+          sender: "Oliver",
+          message: "Don't work too hard! Make sure to take breaks. 🌞",
           timestamp: "2:15 PM",
         },
         {
@@ -233,8 +235,8 @@ import {
           timestamp: "2:20 PM",
         },
         {
-          sender: "Boo",
-          message: "Meo Meo Meo Meo Meo 💪",
+          sender: "Oliver",
+          message: "I might go to the gym later. Need to work off some steam. 💪",
           timestamp: "2:25 PM",
         },
         {
@@ -243,8 +245,8 @@ import {
           timestamp: "2:30 PM",
         },
         {
-          sender: "Boo",
-          message: "Meo Meo Meo Meo Meo Meo Meo 🤸‍♂️",
+          sender: "Oliver",
+          message: "Definitely! The more, the merrier. 🤸‍♂️",
           timestamp: "2:35 PM",
         },
       ],
@@ -253,9 +255,9 @@ import {
       id: 4,
       name: "Sophie",
       imgUrl: user9,
-      age: 2,
+      age: 27,
       isOnline: true,
-      lastMessage: "Meo Meo Meo Meo Meo Meo Meo",
+      lastMessage: "Definitely! Looking forward to it.",
       date: "2023-10-10",
       timeSent: "30 mins",
       chat: [
@@ -267,12 +269,12 @@ import {
   
         {
           sender: "Sophie",
-          message: "Meo Meo Meo Meo Meo Meo Meo",
+          message: "It's been busy but good. How about you?",
           timestamp: "3:05 PM",
         },
         {
           sender: "Sophie",
-          message: "Meo Meo Meo",
+          message: "And also tired",
           timestamp: "3:05 PM",
         },
         {
@@ -282,7 +284,7 @@ import {
         },
         {
           sender: "Sophie",
-          message: "Meo Meo Meo Meo Meo Meo Meo",
+          message: "That's good to hear. Any exciting plans for the weekend?",
           timestamp: "3:15 PM",
         },
         {
@@ -294,7 +296,7 @@ import {
         {
           sender: "Sophie",
           message:
-            "Meo Meo Meo Meo Meo Meo Meo",
+            "I'm planning to go hiking with some friends. You should join us sometime!",
           timestamp: "3:25 PM",
         },
       ],
@@ -303,10 +305,10 @@ import {
     {
       id: 5,
       name: "William",
-      imgUrl: user4,
-      age: 2,
+      imgUrl: user1,
+      age: 29,
       isOnline: false,
-      lastMessage: "Gau Gau Gau Gau Gau Gau",
+      lastMessage: "Let me check my schedule and get back to you.",
       date: "2023-10-09",
       timeSent: "35 mins",
       chat: [
@@ -317,7 +319,7 @@ import {
         },
         {
           sender: "William",
-          message: "Gau Gau Gau Gau",
+          message: "Things are going well. How about you?",
           timestamp: "4:05 PM",
         },
       ],
@@ -325,10 +327,10 @@ import {
     {
       id: 6,
       name: "Jack",
-      imgUrl: user7,
-      age: 3,
+      imgUrl: user5,
+      age: 30,
       isOnline: true,
-      lastMessage: "Meo Meo Meo Meo Meo Meo Meo",   
+      lastMessage: "Sounds like a great idea. Let's make it happen.",
       date: "2023-10-07",
       timeSent: "45 mins",
       chat: [
@@ -339,7 +341,7 @@ import {
         },
         {
           sender: "Jack",
-          message: "Meo Meo Meo Meo Meo Meo Meo",
+          message: "It's been busy but good. How about you?",
           timestamp: "6:05 PM",
         },
       ],
@@ -350,92 +352,92 @@ import {
     {
       id: 1,
       imgUrl: user1,
-      name: "Xam",
-      lastName: "Xam",
-      age: 1,
-      city: "Ha Long",
-      country: "Viet Nam",
+      name: "Yu",
+      lastName: "Ji-min",
+      age: 24,
+      city: "Seoul",
+      country: "South Korea",
     },
     {
       id: 2,
       imgUrl: user2,
-      name: "Kem",
-      lastName: "Kem",
-      age: 1,
-      city: "Ha Long",
-      country: "Viet Nam",
+      name: "Jang",
+      lastName: "Won-Young",
+      age: 20,
+      city: "Seoul",
+      country: "South Korea",
     },
     {
       id: 3,
       imgUrl: user3,
-      name: "Bo",
-      lastName: "Boo",
-      age: 1,
-      city: "Ha Long",
-      country: "Viet Nam",
+      name: "Kim",
+      lastName: "Se jeong",
+      age: 27,
+      city: "Seoul",
+      country: "South Korea",
     },
     {
       id: 4,
       imgUrl: user4,
-      name: "Bach",
-      lastName: "Tuyet",
-      age: 2,
-      city: "Ha Long",
-      country: "Viet Nam",
+      name: "Oh",
+      lastName: "HaeWon",
+      age: 21,
+      city: "Seoul",
+      country: "South Korea",
     },
     {
       id: 5,
       imgUrl: user5,
-      name: "Vy",
-      lastName: "Vy",
-      age: 2,
-      city: "Ha Noi",
-      country: "Viet Nam",
+      name: "Kim",
+      lastName: "Hye-yoon",
+      age: 28,
+      city: "Seoul",
+      country: "South Korea",
     },
     {
       id: 6,
       imgUrl: user6,
-      name: "Kem",
-      lastName: "Xoi",
-      age: 2,
-      city: "Ha Noi",
-      country: "Viet Nam",
+      name: "Kim",
+      lastName: "Min-jeong",
+      age: 23,
+      city: "Seoul",
+      country: "South Korea",
     },
     {
       id: 7,
       imgUrl: user7,
-      name: "Kem",
-      lastName: "Bo",
-      age: 2,
-      city: "Ha Long",
-      country: "Viet Nam",
+      name: "Ariana",
+      lastName: "Grande",
+      age: 31,
+      city: "USA",
+      country: "United States",
     },
     {
       id: 8,
       imgUrl: user8,
-      name: "Boo",
-      lastName: "Boo",
-      age: 1,
-      city: "Ha Long",
-      country: "Viet Nam",
+      name: "Lalisa",
+      lastName: "Manobal",
+      age: 27,
+      city: "Seoul",
+      country: "South Korea",
     },
     {
       id: 9,
       imgUrl: user9,
-      name: "Alexander",
-      lastName: "Pham",
-      age: 2,
-      city: "Ha Long",
-      country: "Viet Name",
+      name: "Kim",
+      lastName: "Ji-soo",
+      age: 29,
+      city: "Seoul",
+      country: "South Korea",
     },
     {
       id: 10,
-      imgUrl: user4,
-      name: "Bach Nguyet",
-      lastName: "Quang",
-      age: 2,
-      city: "Ha Long",
-      country: "Viet Nam",
+      imgUrl: user10,
+      name: "Kim",
+      lastName: "Ji-won",
+      age: 32,
+      city: "Seoul",
+      country: "South Korea",
     },
   ];
   

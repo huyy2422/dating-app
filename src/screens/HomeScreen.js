@@ -19,9 +19,7 @@ export default function HomeScreen() {
         paddingTop: android ? hp(2) : 0,
       }}
     >
-      {}
       <View className="w-full flex-row justify-between items-center px-4 mb-8">
-        {}
         <View className="rounded-full items-center justify-center">
           <Image
             source={profile}
@@ -34,7 +32,6 @@ export default function HomeScreen() {
           />
         </View>
 
-        {}
         <View>
           <Text className="text-x1 font-semibold text-center uppercase">
             Stack Dates
