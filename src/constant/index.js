@@ -443,10 +443,10 @@ import {
   
   export const profileData = [
     {
-      name: "Ning Ning",
-      age: 22,
+      name: "Gia Huy",
+      age: 20,
       imgUrl: profile,
       hobbies: ["Hiking", "Photography", "Cooking"],
-      bio: "Graduated from Harbin Normal University Middle School, a Chinese singer. I am the main dancer, lead vocalist of Aespa.",
+      bio: "Graduated from BTEC FPT, a newbie of App Developing.",
     },
   ];
