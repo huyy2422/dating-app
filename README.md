@@ -1,23 +1,36 @@
 <h3 align="center">Dating-App created by React Native (Frontend)</h3>
 
 
-![Welcome Screen](assets/img/welcome-screen.png)
+<div align="center">
+  <img src="assets/img/welcome-screen.png" alt="Logo" width="100%" height="100%">
+  <p align="center">Home Page</p>
+  <img src="assets/img/home-screen.gif" alt="Logo" width="100%" height="100%">
+  <p align="center">Mini Portal</p>
+  <img src="assets/img/chats-screen.png" alt="Logo" width="100%" height="100%">
+  <p align="center">Detail Modal</p>
+  <img src="assets/img/profile-page.png" alt="Logo" width="100%" height="100%">
+  <p align="center">Grid Genre Page</p>
+  <img src="assets/img/chat-details-screen.png" alt="Logo" width="100%" height="100%">
+  <p align="center">Watch Page with customer contol bar</p>
+</div>
+
+![Welcome Screen]()
 
 A simple welcome screen using views and classnames.
 
-![Home Screen](assets/img/home-screen.gif)
+![Home Screen]()
 
 A home screen with a small profile picture on top and a navigator to slide between potential matches.
 
-![Chats Screen](assets/img/chats-screen.png)
+![Chats Screen]()
 
 A screen which show the chats with whom you have matched and have conversed.
 
-![Profile Page](assets/img/profile-page.png)
+![Profile Page]()
 
 A profile page to show how you look, your hobbies and your biography to others.
 
-![Chat Details Page](assets/img/chat-details-screen.png)
+![Chat Details Page]()
 
 A chat screen to show the conversation you have had with your matches.
 
